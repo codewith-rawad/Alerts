@@ -1,0 +1,108 @@
+body{
+  
+
+  background-color: #3e453e;
+}
+.one,.two,.three,.four,.five{
+z-index: 20;
+font-size:15px;
+font-weight: 800 !important;
+border-radius: 10px;
+width: 90px;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+padding: 15px;
+
+
+
+}
+
+.one{
+background-color: #e0ffe0; ;
+
+}
+
+.custom-success-popup {
+
+  background-color: #e0ffe0;
+  border-radius: 40px;
+}
+
+.custom-success-title {
+  color: #4CAF50;
+}
+.two{
+  background-color: #ffe0e0; ;
+}
+.custom-error-popup {
+  background-color: #ffe0e0;
+  border-radius: 40px;
+}
+
+.custom-error-title {
+  color: #f44336;
+}
+
+.three{
+  background-color:#fff8e0; ;
+}
+.custom-warning-popup {
+  background-color: #fff8e0;
+  border-radius: 40px;
+}
+
+.custom-warning-title {
+  color: #ff9800;
+}
+.four{
+  background-color: #e0f7fa;;
+}
+.custom-info-popup {
+  background-color: #e0f7fa;
+  border-radius: 40px;
+}
+.custom-info-title {
+  color: #2196F3;
+}
+.five{
+  background-color:  #bdbbd7;;
+}
+.custom-question-popup {
+  background-color: #bdbbd7;
+  border-radius: 40px;
+}
+
+.custom-question-title {
+  color: #3196ab;
+}
+
+.custom-confirm-button {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.custom-cancel-button {
+  background-color: #f44336;
+  color: white;
+  border-radius: 5px;
+}
+
+.container{
+  position: fixed; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px; 
+  position: fixed !important;
+}
+.z{
+  z-index: 30;
+  height: 3000px;
+  width: 300px;
+  background-color: #3196ab;
+}
